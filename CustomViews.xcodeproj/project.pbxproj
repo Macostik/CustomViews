@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4323621A21BE84E900208D26 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323621921BE84E900208D26 /* ProgressBar.swift */; };
+		4323621C21BE851400208D26 /* MessageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4323621B21BE851400208D26 /* MessageMenu.swift */; };
 		561890C120D7EEB400B72724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561890C020D7EEB400B72724 /* AppDelegate.swift */; };
 		561890C320D7EEB400B72724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561890C220D7EEB400B72724 /* ViewController.swift */; };
 		561890C620D7EEB400B72724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561890C420D7EEB400B72724 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4323621921BE84E900208D26 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4323621B21BE851400208D26 /* MessageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMenu.swift; sourceTree = "<group>"; };
 		561890BD20D7EEB400B72724 /* CustomViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		561890C020D7EEB400B72724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		561890C220D7EEB400B72724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 		561890D220D7EEBB00B72724 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4323621921BE84E900208D26 /* ProgressBar.swift */,
+				4323621B21BE851400208D26 /* MessageMenu.swift */,
 				561890D320D7EEC200B72724 /* PopupView */,
 			);
 			path = Views;
@@ -154,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4323621C21BE851400208D26 /* MessageMenu.swift in Sources */,
 				561890D520D7EED800B72724 /* PopupView.swift in Sources */,
 				561890C320D7EEB400B72724 /* ViewController.swift in Sources */,
+				4323621A21BE84E900208D26 /* ProgressBar.swift in Sources */,
 				561890C120D7EEB400B72724 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
